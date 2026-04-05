@@ -12,7 +12,13 @@ The meter appears in the bottom-right corner of the TUI and updates dynamically 
 
 ## Installation
 
-### Via npm (Recommended)
+### Via OpenCode CLI
+
+```bash
+opencode plugin @williamcr01/opencode-tps
+```
+
+### Via npm
 
 1. Add the plugin to your `opencode.json`:
 
@@ -22,8 +28,12 @@ The meter appears in the bottom-right corner of the TUI and updates dynamically 
   "plugin": ["@williamcr01/opencode-tps"]
 }
 ```
+then
 
-2. OpenCode will automatically install the plugin on next startup using Bun.
+```bash
+cd ~/.opencode
+npm install @williamcr01/opencode-tps
+```
 
 ## Requirements
 
