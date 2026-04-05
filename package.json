@@ -1,0 +1,42 @@
+{
+  "name": "@williamcr01/opencode-tps",
+  "version": "0.1.0",
+  "description": "Display live tokens-per-second (TPS) meter in OpenCode TUI",
+  "type": "module",
+  "exports": {
+    "./tui": "./tps.tsx"
+  },
+  "files": [
+    "tps.tsx",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "opencode": ">=1.3.14"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": "*",
+    "@opentui/core": "*",
+    "@opentui/solid": "*",
+    "solid-js": "*"
+  },
+  "keywords": [
+    "opencode",
+    "plugin",
+    "tps",
+    "tokens",
+    "performance",
+    "meter",
+    "solid-js"
+  ],
+  "author": "williamcr01",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/williamcr01/opencode-tps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/williamcr01/opencode-tps/issues"
+  },
+  "homepage": "https://github.com/williamcr01/opencode-tps#readme"
+}
