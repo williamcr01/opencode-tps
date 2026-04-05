@@ -28,6 +28,7 @@ opencode plugin @williamcr01/opencode-tps
   "plugin": ["@williamcr01/opencode-tps"]
 }
 ```
+
 then
 
 ```bash
@@ -38,6 +39,7 @@ npm install @williamcr01/opencode-tps
 ## Requirements
 
 - OpenCode >= 1.3.14
+- OpenCode TUI (Web UI does not support this plugin)
 
 ## How it works
 
